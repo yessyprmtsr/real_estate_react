@@ -13,7 +13,7 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Big House in San Jose, Costa Rice',
+        title: 'Big House in San Jose, Costa Rica',
         price: '$9,189,000',
         path: '/homes',
         label: 'View Home',
@@ -21,7 +21,7 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Mid House in Sillicon Valley, California',
+        title: 'Mid House in New York, USA',
         price: '$8,989,000',
         path: '/homes',
         label: 'View Home',

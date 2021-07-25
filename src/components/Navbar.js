@@ -75,7 +75,7 @@ const NavBtn = styled.div`
   }
 `;
 
-const Navbar = () => {
+const Navbar = ({toogle}) => {
   return (
     <Nav>
       <Logo to="/">ICESTATE</Logo>
