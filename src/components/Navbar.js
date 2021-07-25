@@ -7,14 +7,13 @@ import Bars from '../images/bars.svg';
 
 
 const Nav = styled.nav`
-  background: red;
+  
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
   z-index: 100;
   position: fixed;
   width: 100%;
-  height: 68px;
 `;
 
 const NavLink = css`
@@ -29,6 +28,8 @@ const NavLink = css`
 
 const Logo = styled(Link)`
   ${NavLink}
+  margin-top:12px;
+  font-size:20px;
   font-style: italic;
   font-weight: bold;
 `;
@@ -46,6 +47,7 @@ const MenuBars = styled.i`
     top:0;
     right:0;
     transform: translate(-50%, 15%);
+    margin-top:12px;
   }
 `;
 
